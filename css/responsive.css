@@ -1,0 +1,251 @@
+@media (max-width: 991px) {
+    .center-text-md-down{
+        text-align: center;
+    }
+
+    .no-border-md-down:focus{
+        border: none;
+    }
+
+}
+
+@media (max-width: 767px){
+    .center-text-sm-down{
+        text-align: center;
+    }
+
+    .footer-list{
+        list-style-type: none!important;
+    }
+
+    .footer-icon-wrapper ul{
+        justify-content: center;
+    }
+
+    .footer-list{
+        padding-left: var(--rem-1);
+        padding-right: var(--rem-1);
+    }
+
+}
+
+@media (max-width: 575px){
+    /*.container{
+        max-width: 552px;
+    }
+
+    body{
+        min-width: 575px;
+    }
+
+    .navbar{
+        padding-left: 2%!important;
+        padding-right: 2%!important;
+    }  */ 
+
+    .nav-link{
+        padding-top: 1rem!important;
+        padding-bottom: 1rem!important;
+    }
+
+    .navbar-collapse{
+        /*border: 5px solid green;*/
+        min-width: 100%!important;
+    }
+
+    .nav-link:hover,
+    .nav-link:focus{
+    border: 1px solid var(--color-deep-gold);   
+    }
+
+    .dropdown-menu{
+        border: 1px solid var(--color-deep-gold)!important;
+    }
+    
+    .dropdown-divider{
+        height: 1px!important;
+    }
+
+    .no-border-xm:focus{
+        border: none;
+    }
+
+    /*.navbar-toggler{
+        background-color: white!important;
+    }
+
+    .navbar-toggler-icon{
+        background-color: red!important;
+    }*/
+    
+    .navbar{
+        /*border: 1px solid white;*/
+        padding-bottom: var(--rem-0-1)!important;
+        padding-top: var(--rem-0-2)!important;
+    }
+
+
+   /* .nav-item{
+        border: 1px solid red;
+    }
+
+    .navbar-nav{
+        border: 1px solid white;
+    }*/
+    
+    .navbar .container{
+        /*border: 1px solid red;*/
+        padding-bottom: var(--rem-0-2);
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+    /*.container{
+        border: 1px solid red!important;
+    } */   
+
+    .nav-link{
+        padding-top: 1rem!important;
+        padding-bottom: 1rem!important;
+    }
+
+    .navbar-collapse{
+        /*border: 5px solid green;*/
+        min-width: 100%!important;
+    }
+
+    .nav-link:hover,
+    .nav-link:focus{
+    border: 1px solid var(--color-deep-gold);   
+    }
+
+    .dropdown-menu{
+        border: 1px solid var(--color-deep-gold)!important;
+    }
+    
+    .dropdown-divider{
+        height: 1px!important;
+    }
+
+    .no-border-xm:focus{
+        border: none;
+    }
+
+    .navbar .container{
+        /*border: 1px solid red;*/
+        padding-bottom: var(--rem-0-2);
+    }
+
+    .navbar{
+        /*border: 1px solid white;*/
+        padding-bottom: var(--rem-0-1)!important;
+        padding-top: var(--rem-0-2)!important;
+    }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    /*.container{
+        border: 1px solid red!important;
+    } */  
+
+    img{
+        min-width: 33rem;
+    }
+    
+    .home .col img{
+        min-width: 31rem;
+    }
+    
+
+    .nav-link{
+        padding-top: 1rem!important;
+        padding-bottom: 1rem!important;
+    }
+
+    .navbar-collapse{
+        /*border: 5px solid green;*/
+        min-width: 100%!important;
+    }
+
+    .nav-link:hover,
+    .nav-link:focus{
+    border: 1px solid var(--color-deep-gold);   
+    }
+
+    .dropdown-menu{
+        border: 1px solid var(--color-deep-gold)!important;
+    }
+    
+    .dropdown-divider{
+        height: 1px!important;
+    }
+
+    .no-border-xm:focus{
+        border: none;
+    }
+
+    .navbar .container{
+        /*border: 1px solid red;*/
+        padding-bottom: var(--rem-0-2);
+    }
+
+    .navbar{
+        /*border: 1px solid white;*/
+        padding-bottom: var(--rem-0-1)!important;
+        padding-top: var(--rem-0-2)!important;
+    }
+
+    .top-footer .row{ 
+        margin-right: -1.2rem!important;
+        margin-left: -1.2rem!important; 
+    }
+}
+
+@media (min-width: 992px){
+    /*.container{
+        border: 1px solid red;
+    }*/
+    
+    .text-wrapper{
+        position: relative;
+        
+    }
+
+    .home .col div h4,
+    .company .col div h4,
+    .konviv-fashion .col div h4,
+    .konviv-homes .col div h4{
+        position: absolute;
+        top: 3%;
+    }
+
+    .home .col div p{
+        position: absolute;
+        top: 25%;        
+    }
+
+    .company .col div p,
+    .konviv-fashion .col div p,
+    .konviv-homes .col div p{
+        position: absolute;
+        top: 20%;
+        
+    }
+
+    .home .col div button,
+    .company .col div button,
+    .konviv-fashion .col div button,
+    .konviv-homes .col div button{
+        bottom: 3%;
+        position: absolute;
+    }
+
+}
+
+
+
+
+    

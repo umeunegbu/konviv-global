@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konviv Global</title>
+    
+    <!--GOOGLE FONTS PRECONNECT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!--FAVICON-->
+    <link rel="icon" href="https://lh3.googleusercontent.com/d/1-8twMgv_qHww0WwU9dGRYwF3USo2CBah" type="image/png">
+    
+    <!--BOOTSTRAP CDN FOR CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!--FONT AWESOME CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    
+    <!--GOOGLE FONTS-->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Righteous&display=swap" rel="stylesheet">
+
+    <!--CSS FILES-->
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="css\responsive.css">
+    <link rel="stylesheet" href="css\colors.css">
+    <link rel="stylesheet" href="css\fontweights.css">
+    <link rel="stylesheet" href="css\rems.css">
+    <link rel="stylesheet" href="css\percents.css">
+
+    <!--BOOTSTRAP CDN FOR JS-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous" defer></script>
+
+    <!--JS FILES-->
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg container-fluid fixed-top" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <h4><span class="brandname">K</span>onviv</h4>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo" aria-controls="navbarTogglerDemo" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo">
+                <ul class="navbar-nav text-center">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home" onclick="collapseNavbar()">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#company" onclick="collapseNavbar()">Company</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle no-border-md-down no-border-xm" href="#products" role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
+                      <ul class="dropdown-menu">
+                          <li><a class="dropdown-item text-center" href="#konviv-fashion" onclick="collapseNavbar()">Konviv Fashion</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item text-center" href="#konviv-homes" onclick="collapseNavbar()">Konviv Homes</a></li>
+                      </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact" onclick="collapseNavbar()">Contact</a>
+                  </li>
+                </ul>                
+            </div>
+
+        </div>
+    </nav>
+
+    <!--HOME-->
+    <section class="home section-padding section-top-padding" id="home">
+        <div class="container m-auto">
+            <div class="row m-auto">
+                <div class="col">
+                    <img src="https://lh3.googleusercontent.com/d/17BALe-LITC9VlMzAYvIEYK-YBI2rwGWy" class="d-block w-100" alt="...">
+                </div>
+                <div class="col align-items-center justify-content-center">
+                    <div class="text-wrapper align-items-center justify-content-center center-text-md-down">
+                        <h4 class="main-text">Konviv Global Nigeria Limited, the key to the future of Fashion and Real Estate in Africa</h4>
+                        <p class="sub-text">Konviv Global Nigeria Limited is revolutionizing the fashion and real estate industries in Africa, positioning itself as the key to the future. With its innovative approach and unwavering commitment, Konviv Global is reshaping the landscape of fashion and real estate in Nigeria and beyond. Through cutting-edge designs, sustainable practices, and a deep understanding of market trends, Konviv Global is setting new standards and redefining the possibilities. From exquisite fashion collections that blend culture and modernity to groundbreaking real estate projects that redefine luxury living, Konviv Global is at the forefront of shaping Africa's future.</p>
+                        <button class="contact-btn" onclick="scrollToContact()">Contact Us</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--COMPANY-->
+    <section class="company section-padding" id="company">
+        <div class="container m-auto">
+            <h1 class="section-title text-center">Company</h1>
+            <div class="row m-auto">
+                <div class="col">
+                    <p class="sub-text center-text-md-down">Konviv Global Nigeria Limited is revolutionizing the fashion and real estate industries in Africa, positioning itself as the key to the future. With its innovative approach and unwavering commitment, Konviv Global is reshaping the landscape of fashion and real estate in Nigeria and beyond.</p>
+                </div>
+            </div>
+            <div class="row m-auto mt-3">
+                <div class="col">
+                    <div id="carouselExampleAutoplaying1" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner justify-content-center">
+                            <div class="carousel-item active">
+                                <img src="https://lh3.googleusercontent.com/d/17BALe-LITC9VlMzAYvIEYK-YBI2rwGWy" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://lh3.googleusercontent.com/d/17BALe-LITC9VlMzAYvIEYK-YBI2rwGWy" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://lh3.googleusercontent.com/d/17BALe-LITC9VlMzAYvIEYK-YBI2rwGWy" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying1" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying1" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+                <div class="col align-items-center justify-content-center">
+                    <div class="text-wrapper align-items-center justify-content-center center-text-md-down">
+                        <h4 class="main-text">Who we are</h4>
+                        <p class="sub-text">Konviv Global Nigeria Limited is revolutionizing the fashion and real estate industries in Africa, positioning itself as the key to the future. With its innovative approach and unwavering commitment, Konviv Global is reshaping the landscape of fashion and real estate in Nigeria and beyond. Through cutting-edge designs, sustainable practices, and a deep understanding of market trends, Konviv Global is setting new standards and redefining the possibilities. From exquisite fashion collections that blend culture and modernity to groundbreaking real estate projects that redefine luxury living, Konviv Global is at the forefront of shaping Africa's future.</p>
+                        <button class="contact-btn" onclick="scrollToContact()">Contact Us</button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="row m-auto mt-3">
+                <div class="col">
+                    <div id="carouselExampleAutoplaying2" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner justify-content-center">
+                            <div class="carousel-item active">
+                                <img src="https://lh3.googleusercontent.com/d/17BALe-LITC9VlMzAYvIEYK-YBI2rwGWy" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://lh3.googleusercontent.com/d/17BALe-LITC9VlMzAYvIEYK-YBI2rwGWy" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://lh3.googleusercontent.com/d/17BALe-LITC9VlMzAYvIEYK-YBI2rwGWy" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying2" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying2" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+                <div class="col align-items-center justify-content-center">
+                    <div class="text-wrapper align-items-center justify-content-center center-text-md-down">
+                        <h4 class="main-text">What we do</h4>
+                        <p class="sub-text">Konviv Global Nigeria Limited is revolutionizing the fashion and real estate industries in Africa, positioning itself as the key to the future. With its innovative approach and unwavering commitment, Konviv Global is reshaping the landscape of fashion and real estate in Nigeria and beyond. Through cutting-edge designs, sustainable practices, and a deep understanding of market trends, Konviv Global is setting new standards and redefining the possibilities. From exquisite fashion collections that blend culture and modernity to groundbreaking real estate projects that redefine luxury living, Konviv Global is at the forefront of shaping Africa's future.</p>
+                        <button class="contact-btn" onclick="scrollToContact()">Contact Us</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--KONVIV-FASHION-->
+    <section class="konviv-fashion section-padding" id="konviv-fashion">
+        <div class="container">
+            <h1 class="section-title text-center">Konviv Fashion</h1>
+            <div class="row m-auto">
+                <div class="col">
+                    <p class="sub-text center-text-md-down">Konviv Global Nigeria Limited is revolutionizing the fashion and real estate industries in Africa, positioning itself as the key to the future. With its innovative approach and unwavering commitment, Konviv Global is reshaping the landscape of fashion and real estate in Nigeria and beyond.</p>
+                </div>
+            </div>
+            <div class="row m-auto mt-3">
+                <div class="col">
+                    <div id="carouselExampleAutoplaying3" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner justify-content-center">
+                            <div class="carousel-item active">
+                                <img src="https://lh3.googleusercontent.com/d/17BALe-LITC9VlMzAYvIEYK-YBI2rwGWy" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://lh3.googleusercontent.com/d/17BALe-LITC9VlMzAYvIEYK-YBI2rwGWy" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://lh3.googleusercontent.com/d/17BALe-LITC9VlMzAYvIEYK-YBI2rwGWy" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying3" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying3" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+                <div class="col align-items-center justify-content-center">
+                    <div class="text-wrapper align-items-center justify-content-center center-text-md-down">
+                        <h4 class="main-text">High Quality Unisex Two Piece</h4>
+                        <p class="sub-text">Konviv Global Nigeria Limited is revolutionizing the fashion and real estate industries in Africa, positioning itself as the key to the future. With its innovative approach and unwavering commitment, Konviv Global is reshaping the landscape of fashion and real estate in Nigeria and beyond. Through cutting-edge designs, sustainable practices, and a deep understanding of market trends, Konviv Global is setting new standards and redefining the possibilities. From exquisite fashion collections that blend culture and modernity to groundbreaking real estate projects that redefine luxury living, Konviv Global is at the forefront of shaping Africa's future.</p>
+                        <button class="contact-btn" onclick="openInNewTab('https://www.wa.link/g46o8h')">Order Now</button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="row m-auto mt-3">
+                <div class="col">
+                    <div id="carouselExampleAutoplaying4" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner justify-content-center">
+                            <div class="carousel-item active">
+                                <img src="https://lh3.googleusercontent.com/d/17BALe-LITC9VlMzAYvIEYK-YBI2rwGWy" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://lh3.googleusercontent.com/d/17BALe-LITC9VlMzAYvIEYK-YBI2rwGWy" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://lh3.googleusercontent.com/d/17BALe-LITC9VlMzAYvIEYK-YBI2rwGWy" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying4" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying4" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+                <div class="col align-items-center justify-content-center">
+                    <div class="text-wrapper align-items-center justify-content-center center-text-md-down">
+                        <h4 class="main-text">High Quality Unisex Two Piece</h4>
+                        <p class="sub-text">Konviv Global Nigeria Limited is revolutionizing the fashion and real estate industries in Africa, positioning itself as the key to the future. With its innovative approach and unwavering commitment, Konviv Global is reshaping the landscape of fashion and real estate in Nigeria and beyond. Through cutting-edge designs, sustainable practices, and a deep understanding of market trends, Konviv Global is setting new standards and redefining the possibilities. From exquisite fashion collections that blend culture and modernity to groundbreaking real estate projects that redefine luxury living, Konviv Global is at the forefront of shaping Africa's future.</p>
+                        <button class="contact-btn" onclick="openInNewTab('https://www.wa.link/g46o8h')">Order Now</button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="row m-auto mt-3">
+                <div class="col">
+                    <div id="carouselExampleAutoplaying5" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner justify-content-center">
+                            <div class="carousel-item active">
+                                <img src="https://lh3.googleusercontent.com/d/17BALe-LITC9VlMzAYvIEYK-YBI2rwGWy" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://lh3.googleusercontent.com/d/17BALe-LITC9VlMzAYvIEYK-YBI2rwGWy" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://lh3.googleusercontent.com/d/17BALe-LITC9VlMzAYvIEYK-YBI2rwGWy" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying5" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying5" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+                <div class="col align-items-center justify-content-center">
+                    <div class="text-wrapper align-items-center justify-content-center center-text-md-down">
+                        <h4 class="main-text">High Quality Unisex Two Piece</h4>
+                        <p class="sub-text">Konviv Global Nigeria Limited is revolutionizing the fashion and real estate industries in Africa, positioning itself as the key to the future. With its innovative approach and unwavering commitment, Konviv Global is reshaping the landscape of fashion and real estate in Nigeria and beyond. Through cutting-edge designs, sustainable practices, and a deep understanding of market trends, Konviv Global is setting new standards and redefining the possibilities. From exquisite fashion collections that blend culture and modernity to groundbreaking real estate projects that redefine luxury living, Konviv Global is at the forefront of shaping Africa's future.</p>
+                        <button class="contact-btn" onclick="openInNewTab('https://www.wa.link/g46o8h')">Order Now</button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="row m-auto mt-3">
+                <div class="col text-center">
+                    <button class="contact-btn" onclick="openInNewTab('https://www.instagram.com/konviv/')">View More</button>
+                </div>
+            </div>
+        </div>        
+    </section>
+
+    <!--KONVIV-HOMES-->
+    <section class="konviv-homes section-padding" id="konviv-homes">
+        <div class="container">
+            <h1 class="section-title text-center">Konviv Homes</h1>
+            <div class="row m-auto">
+                <div class="col">
+                    <p class="sub-text center-text-md-down">Konviv Global Nigeria Limited is revolutionizing the fashion and real estate industries in Africa, positioning itself as the key to the future. With its innovative approach and unwavering commitment, Konviv Global is reshaping the landscape of fashion and real estate in Nigeria and beyond.</p>
+                </div>
+            </div>
+            <div class="row m-auto mt-3">
+                <div class="col">
+                    <div id="carouselExampleAutoplaying6" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner justify-content-center">
+                            <div class="carousel-item active">
+                                <img src="https://lh3.googleusercontent.com/d/17BALe-LITC9VlMzAYvIEYK-YBI2rwGWy" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://lh3.googleusercontent.com/d/17BALe-LITC9VlMzAYvIEYK-YBI2rwGWy" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://lh3.googleusercontent.com/d/17BALe-LITC9VlMzAYvIEYK-YBI2rwGWy" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying6" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying6" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+                <div class="col align-items-center justify-content-center">
+                    <div class="text-wrapper align-items-center justify-content-center center-text-md-down">
+                        <h4 class="main-text">Two Bedroom Duplex for Sale ₦100,000,000</h4>
+                        <p class="sub-text">Konviv Global Nigeria Limited is revolutionizing the fashion and real estate industries in Africa, positioning itself as the key to the future. With its innovative approach and unwavering commitment, Konviv Global is reshaping the landscape of fashion and real estate in Nigeria and beyond. Through cutting-edge designs, sustainable practices, and a deep understanding of market trends, Konviv Global is setting new standards and redefining the possibilities. From exquisite fashion collections that blend culture and modernity to groundbreaking real estate projects that redefine luxury living, Konviv Global is at the forefront of shaping Africa's future.</p>
+                        <button class="contact-btn" onclick="openInNewTab('https://wa.link/duteah')">Book Inspection</button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="row m-auto mt-3">
+                <div class="col">
+                    <div id="carouselExampleAutoplaying7" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner justify-content-center">
+                            <div class="carousel-item active">
+                                <img src="https://lh3.googleusercontent.com/d/17BALe-LITC9VlMzAYvIEYK-YBI2rwGWy" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://lh3.googleusercontent.com/d/17BALe-LITC9VlMzAYvIEYK-YBI2rwGWy" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://lh3.googleusercontent.com/d/17BALe-LITC9VlMzAYvIEYK-YBI2rwGWy" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying7" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying7" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+                <div class="col align-items-center justify-content-center">
+                    <div class="text-wrapper align-items-center justify-content-center center-text-md-down">
+                        <h4 class="main-text">Two Bedroom Duplex for Rent ₦20,000,000</h4>
+                        <p class="sub-text">Konviv Global Nigeria Limited is revolutionizing the fashion and real estate industries in Africa, positioning itself as the key to the future. With its innovative approach and unwavering commitment, Konviv Global is reshaping the landscape of fashion and real estate in Nigeria and beyond. Through cutting-edge designs, sustainable practices, and a deep understanding of market trends, Konviv Global is setting new standards and redefining the possibilities. From exquisite fashion collections that blend culture and modernity to groundbreaking real estate projects that redefine luxury living, Konviv Global is at the forefront of shaping Africa's future.</p>
+                        <button class="contact-btn" onclick="openInNewTab('https://wa.link/duteah')">Book Inspection</button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="row m-auto mt-3">
+                <div class="col">
+                    <div id="carouselExampleAutoplaying8" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner justify-content-center">
+                            <div class="carousel-item active">
+                                <img src="https://lh3.googleusercontent.com/d/17BALe-LITC9VlMzAYvIEYK-YBI2rwGWy" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://lh3.googleusercontent.com/d/17BALe-LITC9VlMzAYvIEYK-YBI2rwGWy" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://lh3.googleusercontent.com/d/17BALe-LITC9VlMzAYvIEYK-YBI2rwGWy" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying8" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying8" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+                <div class="col align-items-center justify-content-center">
+                    <div class="text-wrapper align-items-center justify-content-center center-text-md-down">
+                        <h4 class="main-text">Three Bedroom Duplex for Sale ₦200,000,000</h4>
+                        <p class="sub-text">Konviv Global Nigeria Limited is revolutionizing the fashion and real estate industries in Africa, positioning itself as the key to the future. With its innovative approach and unwavering commitment, Konviv Global is reshaping the landscape of fashion and real estate in Nigeria and beyond. Through cutting-edge designs, sustainable practices, and a deep understanding of market trends, Konviv Global is setting new standards and redefining the possibilities. From exquisite fashion collections that blend culture and modernity to groundbreaking real estate projects that redefine luxury living, Konviv Global is at the forefront of shaping Africa's future.</p>
+                        <button class="contact-btn" onclick="openInNewTab('https://wa.link/duteah')">Book Inspection</button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="row m-auto mt-3">
+                <div class="col text-center">
+                    <button class="contact-btn" onclick="openInNewTab('https://instagram.com/konvivrealtor')">View More</button>
+                </div>
+            </div>
+        </div>        
+    </section>
+
+    <!--CONTACT-->
+    <section class="contact section-padding section-bottom-padding" id="contact">
+        <div class="container">
+            <h1 class="section-title text-center">Contact</h1>
+            <div class="row m-auto">
+                <p class="sub-text center-text-md-down">Konviv Global Nigeria Limited is revolutionizing the fashion and real estate industries in Africa, positioning itself as the key to the future. With its innovative approach and unwavering commitment, Konviv Global is reshaping the landscape of fashion and real estate in Nigeria and beyond.</p>
+            </div>
+            <div class="row m-auto mt-3">
+                <div class="col col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-3 text-center m-auto">
+                    <div class="contact-tab" tabindex="0">
+                        <a href="tel:+2348170147255" target="_blank">
+                            <i class="fa fa-solid fa-phone"></i>
+                            <div class="tab-wrapper">
+                                <h4 class="tab-main-text">Call</h4>
+                                <p class="tab-sub-text">To learn more about our products, contact us via +234 817 014 7255</p>
+                            </div>                                
+                        </a>
+                    </div>
+                </div>
+                <div class="col col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-3 text-center m-auto">
+                    <div class="contact-tab" tabindex="0">
+                        <a href="https://wa.link/89iaml" target="_blank">
+                            <i class="fa fa-solid fa-whatsapp"></i>
+                            <div class="tab-wrapper">
+                                <h4 class="tab-main-text">Whatsapp</h4>
+                                <p class="tab-sub-text">For enquiries, send us a Whatsapp message via +234 817 014 7255</p>
+                            </div>                                
+                        </a>
+                    </div>
+                </div>
+                <div class="col col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-3 text-center m-auto">
+                    <div class="contact-tab" tabindex="0">
+                        <a href="mailto:konvivglobal@gmail.com" target="_blank">
+                            <i class="fa fa-solid fa-envelope"></i>
+                            <div class="tab-wrapper">
+                                <h4 class="tab-main-text">Email</h4>
+                                <p class="tab-sub-text">For enquiries, send us an email at konvivglobal@gmail.com</p>
+                            </div>                                
+                        </a>
+                    </div>
+                </div>
+                <div class="col col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-3 text-center m-auto">
+                    <div class="contact-tab" tabindex="0">
+                        <a href="https://goo.gl/maps/kty6K5kJqqQ2Y1h89" target="_blank">
+                            <i class="fa fa-solid fa-map-marker"></i>
+                            <div class="tab-wrapper">
+                                <h4 class="tab-main-text">Address</h4>
+                                <p class="tab-sub-text">Our office is situated at Road 24, House 11, Ikota Villa Estate, Ikota, Ajah, Lagos, Nigeria.</p>
+                            </div>                                
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--TOP-FOOTER-->
+    <footer class="footer top-footer section-padding container-fluid" id="top-footer">
+        <div class="container">
+            <div class="row m-auto">
+                <div class="col col-sm-12 col-md-6 col-lg-6">
+                    <div class="footer-text-wrapper text-end top-margin">
+                        <a class="navbar-brand center-text-sm-down" href="#home">
+                            <h4 class="footer-brand"><span class="brandname">K</span>onviv</h4>
+                        </a>
+                        <div class="footer-icon-wrapper">
+                            <ul>
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="fa fa-facebook" tabindex="0"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="fa fa-instagram" tabindex="0"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="fa fa-twitter" tabindex="0"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="fa fa-whatsapp" tabindex="0"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="fa fa-telegram" tabindex="0"></i>
+                                    </a>
+                                </li>                                   
+                            </ul>                                
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-sm-12 col-md-6 col-lg-6 m-auto">
+                    <div class="footer-text-wrapper align-items-center center-text-sm-down">
+                        <h4 class="footer-title">Quick Links</h4>
+                        <ul class="footer-list">
+                            <li class="footer-link" tabindex="0"><a href="#home">Home</a></li>
+                            <li class="footer-link" tabindex="0"><a href="#company">Company</a></li>
+                            <li class="footer-link" tabindex="0"><a href="#konviv-fashion">Konviv Fashion</a></li>
+                            <li class="footer-link" tabindex="0"><a href="#konviv-homes">Konviv Homes</a></li>
+                            <li class="footer-link" tabindex="0"><a href="#contact">Contact</a></li>
+                            <li class="footer-link" tabindex="0"><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--BOTTOM-FOOTER-->
+    <footer class="footer bottom-footer" id="bottom-footer">
+        <div class="container">
+            <div class="row m-auto">
+                <div class="col col-md-8 m-auto">
+                    <div class="copyright text-center align-items-center justify-content-center pt-3">
+                        <p>
+                            Copyright © 2024    <a href="#home">   Konviv   </a>    All Rights Reserved.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>    
+</body>
+</html>
